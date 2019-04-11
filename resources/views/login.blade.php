@@ -34,5 +34,5 @@
             </form>
         </div>
 
-        <a href="{{route('register')}}">{{ __('Register') }}</a>
+        <a href="/registered">{{ __('Add Member') }}</a>
 @endsection
