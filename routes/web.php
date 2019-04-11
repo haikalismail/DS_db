@@ -19,8 +19,20 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/test', function () {
-    return view('test');
+Route::get('/case', function () {
+    return view('caseList');
+});
+
+Route::get('/addCase', function () {
+    return view('caseList');
+});
+
+Route::get('/addCase', function () {
+    return view('addCase');
+});
+
+Route::get('/list', function () {
+    return view('caseList');
 });
 
 Route::get('/registered', 'addRole@index');
